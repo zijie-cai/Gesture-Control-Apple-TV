@@ -7,6 +7,10 @@ This project lets you control your Apple TV with simple hand gestures. Designed 
 - Python
 - OpenCV
 - mediapipe
+
+https://github.com/zijie-cai/Gesture-Control-Apple-TV/assets/74931355/aed56bc2-e850-4b5f-af31-afad62d0eff9
+
+
 - pyatv
 
 ## 🛠 Installation and Setup
