@@ -1,0 +1,93 @@
+# This is a document of all remote control commands for Apple TV and AirPlay devices. 
+# For more information, visit the 'pyatv' official documentation
+
+# Commands marked with (*) are unused for now 
+
+Remote control commands:
+ - channel_down - Select previous channel (*)
+ - channel_up - Select next channel (*)
+ - down - Press key down 
+ - home - Press key home
+ - home_hold - Hold key home (**DEPRECATED**)
+ - left - Press key left
+ - menu - Press key menu
+ - next - Press key next  (*)
+ - pause - Press key play (*)
+ - play - Press key play  (*)
+ - play_pause - Toggle between play and pause
+ - previous - Press key previous  (*)
+ - right - Press key right
+ - select - Press key select
+ - set_position - Seek in the current playing media  (*)
+ - set_repeat - Change repeat state  (*)
+ - set_shuffle - Change shuffle mode to on or off  (*)
+ - skip_backward - Skip backwards a time interval  (*)
+ - skip_forward - Skip forward a time interval  (*)
+ - stop - Press key stop  (*)
+ - suspend -         **DEPRECATED**: Use `pyatv.interface.Power.turn_off` instead
+ - top_menu - Go to main menu (long press menu)  (*)
+ - up - Press key up
+ - volume_down -         **DEPRECATED**: Use `pyatv.interface.Audio.volume_down` instead
+ - volume_up -         **DEPRECATED**: Use `pyatv.interface.Audio.volume_up` instead
+ - wakeup -         **DEPRECATED**: Use `pyatv.interface.Power.turn_on` instead
+
+Metadata commands:  (*)
+ - app - Return information about current app playing something
+ - artwork - Return artwork for what is currently playing (or None)
+ - artwork_id - Return a unique identifier for current artwork
+ - device_id - Return a unique identifier for current device
+ - playing - Return what is currently playing
+
+Power commands:  (*)
+ - power_state - Return device power state
+ - turn_off - Turn device off
+ - turn_on - Turn device on
+
+Playing commands:  (*)
+ - album - Album of the currently playing song
+ - artist - Artist of the currently playing song
+ - content_identifier - Content identifier (app specific)
+ - device_state - Device state, e.g. playing or paused
+ - episode_number - Episode number of TV series
+ - genre - Genre of the currently playing song
+ - hash - Create a unique hash for what is currently playing
+ - media_type - Type of media is currently playing, e.g. video, music
+ - position - Position in the playing media (seconds)
+ - repeat - Repeat mode
+ - season_number - Season number of TV series
+ - series_name - Title of TV series
+ - shuffle - If shuffle is enabled or not
+ - title - Title of the current media, e.g. movie or song name
+ - total_time - Total play time in seconds
+
+AirPlay commands:  (*)
+ - close - Close connection and release allocated resources
+ - play_url - Play media from an URL on the device
+ - stream_file - Stream local or remote file to device
+
+Device Info commands:  (*)
+ - build_number - Operating system build number, e.g
+ - mac - Device MAC address
+ - model - Hardware model name, e.g
+ - model_str - Return model name as string
+ - operating_system - Operating system running on device
+ - raw_model -         If `pyatv.interface.DeviceInfo.model` returns `pyatv.const
+ - version - Operating system version
+
+Device commands:  (*)
+ - artwork_save - Download artwork and save it to artwork.png
+ - cli - Enter commands in a simple CLI
+ - delay - Sleep for a certain amount if milliseconds
+ - device_info - Print various information about the device
+ - features - Print a list of all features and options
+ - push_updates - Listen for push updates
+
+Apps commands:  (*)
+ - app_list - Fetch a list of apps that can be launched
+ - launch_app - Launch an app based on bundle ID
+
+Global commands:  (*)
+ - commands - Print a list with available commands
+ - help - Print help text for a command
+ - pair - Pair pyatv as a remote control with an Apple TV
+ - scan - Scan for Apple TVs on the network
