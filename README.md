@@ -15,7 +15,7 @@ For a quick glimpse of what this project can do, check out the [video demo](http
 - Apple TV
 
 ## 🛠 Installation and Setup
-### 1. Set Up Environment and Install Dependencies
+### Set Up Environment and Install Dependencies
 - Create and activate a Python virtual environment (venv/conda):
     ```bash
     python3 -m venv env 
@@ -46,6 +46,9 @@ Simply open the `GestureControlAppleTV.ipynb` Jupyter Notebook and follow the in
 - Back/Exit
 - Control Center
 - Volume Control (Coming soon)
+
+## 🚀 Future Updates
+Due to the recent tvOS 16 update, I plan on migrating this project to the tvOS platform for seamless integration. This will include utilizing tvOS APIs for more accurate control mappings and potentialy coming up with even better gestures for a more user-friendly experience.
 
 ## 👏 Contributions
 Open to contributions! If you have suggestions or improvements, feel free to fork the repo and create a pull request.
