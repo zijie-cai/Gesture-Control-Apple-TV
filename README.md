@@ -3,14 +3,13 @@
 ## Overview
 This project lets you control your Apple TV with simple hand gestures. Designed to be intuitive and user-friendly, it walks you through the implementation steps using a detailed Jupyter Notebook guide.
 
+## 📽️ Video Demonstration
+For a quick overview of what this project can do, check out the [video demo](https://github.com/zijie-cai/Gesture-Control-Apple-TV/assets/74931355/aed56bc2-e850-4b5f-af31-afad62d0eff9).
+
 ## 📚 Technologies Used
 - Python
 - OpenCV
 - mediapipe
-
-https://github.com/zijie-cai/Gesture-Control-Apple-TV/assets/74931355/aed56bc2-e850-4b5f-af31-afad62d0eff9
-
-
 - pyatv
 
 ## 🛠 Installation and Setup
