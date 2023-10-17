@@ -15,7 +15,6 @@ For a quick glimpse of what this project can do, check out the [video demo](http
 - Apple TV
 
 ## 🛠 Installation and Setup
-### Set Up Environment and Install Dependencies
 - Create and activate a Python virtual environment (venv/conda):
     ```bash
     python3 -m venv env 
