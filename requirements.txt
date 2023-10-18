@@ -1,0 +1,9 @@
+opencv-python
+mediapipe<0.10.2
+pyatv
+protobuf<4,>=3.11
+scikit-learn 
+tensorflow
+pydot 
+graphviz
+wandb
