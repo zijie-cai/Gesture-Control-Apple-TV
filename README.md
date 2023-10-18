@@ -9,8 +9,8 @@ For a quick glimpse of what this project can do, check out the [video demo](http
 ## 📚 Technologies Used
 - Python
 - OpenCV
-- mediapipe
-- pyatv
+- [mediapipe](https://developers.google.com/mediapipe): Google's open-source framework, used for media processing. For this poject, it is used for hand tracking.  
+- [pyatv](https://pyatv.dev/): a client library for Apple TV and AirPlay devices.
 - WebCam
 - Apple TV
 
@@ -33,7 +33,7 @@ For a quick glimpse of what this project can do, check out the [video demo](http
     pip install -r requirements.txt
     ```
 
-**Note:** The main libraries are 'opencv-python' and 'mediapipe' for hand tracking and 'pyatv' for interacting with Apple TV.
+**Note:** To run the code successfully, you **must** complete the installation and setup steps.
 
 ## 🏃‍♂️ How to Run
 Simply open the `GestureControlAppleTV.ipynb` Jupyter Notebook and follow the instructions there.
