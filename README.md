@@ -36,7 +36,7 @@ For a quick glimpse of what this project can do, check out the [video demo](http
 **Note:** To run the code successfully, you **must** complete the installation and setup steps.
 
 ## 🏃‍♂️ How to Run
-Simply open the `GestureControlAppleTV.ipynb` Jupyter Notebook and follow the instructions there.
+Simply clone or download the repository and open the `GestureControlAppleTV.ipynb` Jupyter Notebook and follow the instructions from there.
 
 ## 🌟 Features
 - Power On/Off
