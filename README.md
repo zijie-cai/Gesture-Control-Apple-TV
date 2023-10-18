@@ -47,7 +47,7 @@ Simply clone or download the repository and open the `GestureControlAppleTV.ipyn
 - Volume Control (Coming soon)
 
 ## 🚀 Future Updates
-Due to the recent tvOS 16 update, I plan on migrating this project to the tvOS platform for seamless integration. This will include utilizing tvOS APIs for more accurate control mappings and potentialy coming up with even better gestures for a more user-friendly experience.
+Due to the most recent tvOS 16 update, I plan on migrating this project to the tvOS platform for seamless integration. This will include utilizing tvOS APIs for more accurate control mappings and potentialy coming up with even better gestures for a more user-friendly experience.
 
 ## 👏 Contributions
 Open to contributions! If you have suggestions or improvements, feel free to fork the repo and create a pull request.
